@@ -39,6 +39,21 @@ def monopoly_with_third_tier
                           }
                              }
               }
+<<<<<<< HEAD
+=======
+  
+  monopoly = {:railroads => {
+                :pieces =>  4, 
+                :rent_in_dollars => {
+                  :one_piece_owned    =>  25,
+                  :two_pieces_owned   =>  50,
+                  :three_pieces_owned =>  100,
+                  :four_pieces_owned  =>  200
+                                    }
+                  
+                }
+    }
+>>>>>>> 0f3de51f91e14fd1e2e180aea625dd4c51c1cf7c
 end
 
 def monopoly_with_fourth_tier
